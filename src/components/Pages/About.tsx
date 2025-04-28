@@ -1,0 +1,60 @@
+import { Link } from "react-router-dom";
+
+// Make it into a grid layout with 2 colums, about me and education
+const About = () => {
+  return (
+    <div className="flex flex-col gap-8 items-center h-[calc(100vh-72px)] lg:p-4 bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white transition-all duration-300 ease-in-out">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl lg:m-10">
+        {/* About Me Section */}
+        <div className="flex flex-col items-center mt-5 lg:mt-0 bg-gray-100 dark:bg-gray-800 rounded-2xl p-6 border border-gray-200 dark:border-gray-700">
+          <h1 className="text-lg font-bold text-gray-400 dark:text-gray-300 text-center m-2">
+            LEARN MORE
+          </h1>
+          <h1 className="text-4xl font-bold text-center mb-4">About Me</h1>
+          <p className="text-center text-gray-500 dark:text-gray-400 sm:text-xl mb-4 max-w-xl px-6">
+            I am a recent graduate with a degree in Computer Science. I have a
+            passion for web development and enjoy creating user-friendly
+            applications.
+          </p>
+          <p className="text-center text-gray-500 dark:text-gray-400 sm:text-xl max-w-xl px-6">
+            I am proficient in JavaScript, React, and Tailwind CSS, and I am
+            always eager to learn new technologies and improve my skills.
+          </p>
+        </div>
+
+        {/* Education Section */}
+        <div className="flex flex-col items-center bg-gray-100 dark:bg-gray-800 rounded-2xl p-6 border border-gray-200 dark:border-gray-700">
+          <h1 className="text-lg font-bold text-gray-400 dark:text-gray-300 text-center m-2">
+            MY STUDIES
+          </h1>
+          <h1 className="text-4xl font-bold text-center mb-4">Education</h1>
+          <p className="text-center text-gray-500 dark:text-gray-400 sm:text-xl mb-4 max-w-xl px-6">
+            I earned my Bachelor's degree in Computer Science, from the{" "}
+            <a
+              href="https://www.uop.gr/en/"
+              target="_blank"
+              className="text-blue-500 hover:underline"
+            >
+              University of Peloponnese
+            </a>{" "}
+            studying from 2017 to 2025.
+          </p>
+          <p className="text-center text-gray-500 dark:text-gray-400 sm:text-xl mb-4 max-w-xl px-6">
+            I have gained a solid foundation in programming, algorithms, and
+            software development principles.
+          </p>
+        </div>
+      </div>
+      <div className="flex">
+        <Link
+          to="/skills"
+          className="bg-blue-800 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-blue-700 transition duration-300"
+        >
+          Check out what I can do
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default About;
