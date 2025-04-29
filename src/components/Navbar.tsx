@@ -26,7 +26,7 @@ const Navbar = () => {
               to="/"
               className={`font-bold text-xl text-gray-800 px-3 py-2 rounded-md dark:text-white`}
             >
-              .thodoris_tsironis
+              <span className="text-blue-600">.</span>thodoris_tsironis
             </Link>
           </div>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
             <a
               href="/files/Theodoros_Tsironis_CV.pdf"
               download="Theodoros_Tsironis_CV.pdf"
-              className="flex bg-blue-800 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-blue-700 transition duration-300"
+              className="flex bg-blue-800 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-blue-700 transition duration-300  hover:scale-105"
             >
               <IoMdDownload className="mr-2 mt-0.5" size={20} />
               CV

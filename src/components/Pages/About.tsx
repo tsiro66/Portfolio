@@ -18,7 +18,8 @@ const About = () => {
           </p>
           <p className="text-center text-gray-500 dark:text-gray-400 sm:text-xl max-w-xl px-6">
             I am proficient in JavaScript, React, and Tailwind CSS, and I am
-            always eager to learn new technologies and improve my skills.
+            always eager to learn new technologies and improve my skills. I am
+            excited to take on new challenges.
           </p>
         </div>
 
@@ -33,22 +34,23 @@ const About = () => {
             <a
               href="https://www.uop.gr/en/"
               target="_blank"
-              className="text-blue-500 hover:underline"
+              className="text-blue-800 hover:underline"
             >
               University of Peloponnese
             </a>{" "}
-            studying from 2017 to 2025.
+            studying from September 2017 to February 2025.
           </p>
           <p className="text-center text-gray-500 dark:text-gray-400 sm:text-xl mb-4 max-w-xl px-6">
             I have gained a solid foundation in programming, algorithms, and
-            software development principles.
+            software development principles. I am also actively working on
+            personal projects to enhance my skills.
           </p>
         </div>
       </div>
       <div className="flex">
         <Link
           to="/skills"
-          className="bg-blue-800 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-blue-700 transition duration-300"
+          className="bg-blue-800 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-blue-700 transition duration-300 hover:scale-105"
         >
           Check out what I can do
         </Link>
