@@ -7,7 +7,7 @@ import NotFoundPage from "./components/NotFoundPage.tsx";
 import About from "./components/Pages/About.tsx";
 import Layout from "./components/Layout.tsx";
 import Contact from "./components/Pages/Contact.tsx";
-import Skills from "./components/Pages/Skills.tsx";
+import Projects from "./components/Pages/Projects.tsx";
 
 const router = createBrowserRouter([
   {
@@ -27,8 +27,8 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "skills",
-        element: <Skills />,
+        path: "projects",
+        element: <Projects />,
       },
     ],
   },

@@ -39,10 +39,10 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="/skills"
+              to="/projects"
               className={`font-bold text-gray-800 px-3 py-2 rounded-md dark:text-white`}
             >
-              Skills
+              Projects
             </Link>
 
             <Link
