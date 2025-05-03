@@ -17,7 +17,7 @@ const ProjectCards = () => {
             <SiSpring />
           </div>
         }
-        link="https://github.com/tsiro66/Healthcare-app-FE"
+        link="https://github.com/stars/tsiro66/lists/healthcare-app"
       />
       <Card
         title="More to come..."
