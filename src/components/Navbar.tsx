@@ -56,7 +56,8 @@ const Navbar = () => {
             <a
               href="/files/Theodoros_Tsironis_CV.pdf"
               download="Theodoros_Tsironis_CV.pdf"
-              className="flex bg-blue-800 text-white px-3 md:px-4 py-1 md:py-2 rounded-full cursor-pointer hover:bg-blue-700 transition duration-300 hover:scale-105 text-xs md:text-base"
+              className="flex bg-blue-800 text-white px-3 md:px-4 py-1.5 md:py-2 rounded-full cursor-pointer hover:bg-blue-700 
+              transition duration-300 hover:scale-105 text-sm md:text-base"
             >
               <IoMdDownload className="mr-1 md:mr-2 mt-0.5" size={16} />
               CV
@@ -100,27 +101,27 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Bottom Navigation */}
-      <div className="fixed bottom-0 left-0 w-full bg-gray-100 dark:bg-gray-800 py-2 md:hidden flex justify-around items-center z-10">
+      <div className="fixed bottom-0 left-0 w-full bg-blue-900  dark:bg-gray-800 py-2 md:hidden flex justify-around items-center transition-all duration-300 ease-in-out shadow-lg z-10 rounded-t-xl">
         <Link
           to="/about"
-          className="flex flex-col items-center text-gray-600 dark:text-gray-300"
+          className="flex flex-col items-center text-white dark:text-gray-300"
         >
-          <FaInfo size={14} />
-          <span className="font-bold text-xs">About</span>
+          <FaInfo size={18} />
+          <span className=" text-base">About</span>
         </Link>
         <Link
           to="/projects"
-          className="flex flex-col items-center text-gray-600 dark:text-gray-300"
+          className="flex flex-col items-center text-white dark:text-gray-300"
         >
-          <FaProjectDiagram size={14} />
-          <span className="font-bold text-xs">Projects</span>
+          <FaProjectDiagram size={18} />
+          <span className="text-base">Projects</span>
         </Link>
         <Link
           to="/contact"
-          className="flex flex-col items-center text-gray-600 dark:text-gray-300"
+          className="flex flex-col items-center text-white dark:text-gray-300"
         >
-          <IoMdContact size={14} />
-          <span className="font-bold text-xs">Contact</span>
+          <IoMdContact size={18} />
+          <span className=" text-base">Contact</span>
         </Link>
       </div>
     </div>

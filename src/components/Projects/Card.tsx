@@ -15,7 +15,7 @@ const DemoCard: React.FC<DemoCardProps> = ({
     <>
       <div
         className="bg-gray-100 dark:bg-gray-800 rounded-2xl p-6 flex flex-col border border-gray-200 dark:border-gray-700 
-      transition-transform transform hover:scale-105 cursor-pointer"
+      transition-all transform duration-300 hover:scale-105 cursor-pointer shadow-md hover:shadow-lg "
         onClick={() => {
           if (link) {
             window.open(link, "_blank");

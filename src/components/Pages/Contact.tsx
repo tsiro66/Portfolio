@@ -29,20 +29,20 @@ const Contact = () => {
 
   return (
     <PageTransition>
-      <div className="flex flex-col min-h-screen pt-20 md:pt-24 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white transition-all duration-300 ease-in-out">
-        <section className="py-4 lg:py-8">
-          <div className="px-4 mx-auto max-w-screen-md">
+      <div className="flex flex-col min-h-screen pt-16 sm:pt-20 md:pt-24 lg:pt-10 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white transition-all duration-300 ease-in-out">
+        <section className="py-4 lg:py-6 flex-grow flex flex-col justify-center">
+          <div className="px-4 mx-auto max-w-screen-md w-full">
             <h2 className="mb-4 text-2xl sm:text-3xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
               Contact Me
             </h2>
-            <p className="mb-4 lg:mb-8 text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+            <p className="mb-4 lg:mb-6 text-center text-gray-500 dark:text-gray-400 sm:text-base text-sm">
               Intrested in hiring me? Want me to work on your project? <br />
               Fill out the form below to get in touch! I will get back to you as
               soon as possible.
             </p>
             <form
               action="#"
-              className="space-y-8 bg-gray-100 dark:bg-gray-800 rounded-2xl p-6 border border-gray-200 dark:border-gray-700"
+              className="space-y-6 bg-gray-100 dark:bg-gray-800 rounded-2xl p-4 md:p-5 border border-gray-200 dark:border-gray-700 max-h-[70vh] overflow-y-auto shadow-md hover:shadow-lg transition-shadow duration-300"
               onSubmit={SendEmail}
             >
               <div>
@@ -91,10 +91,9 @@ const Contact = () => {
                 <textarea
                   id="message"
                   name="message"
-                  rows={3}
                   className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 
                 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
-                 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 h-16 sm:h-24"
                   placeholder="Leave a comment..."
                   required
                 ></textarea>
@@ -111,7 +110,7 @@ const Contact = () => {
           </div>
         </section>
         {showSnackbar && (
-          <div className="flex justify-center items-center">
+          <div className="fixed bottom-4 left-0 right-0 flex justify-center items-center">
             <div
               id="toast-simple"
               className="flex justify-center w-full max-w-xs p-4 text-gray-500 bg-white
@@ -127,7 +126,7 @@ const Contact = () => {
           </div>
         )}
         {showErrorSnackbar && (
-          <div className="flex justify-center items-center">
+          <div className="fixed bottom-4 left-0 right-0 flex justify-center items-center">
             <div
               id="toast-error"
               className="flex justify-center w-full max-w-xs p-4 text-gray-500
