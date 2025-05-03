@@ -65,7 +65,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex my-8 mb-16 md:mb-12">
+        <div className="flex my-4 mb-16">
           <Link
             to="/projects"
             className="bg-blue-800 hover:bg-blue-700 text-white px-6 py-3 rounded-full 
