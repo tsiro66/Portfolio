@@ -20,30 +20,14 @@ const ProjectCards = () => {
         link="https://github.com/tsiro66/Healthcare-app-FE"
       />
       <Card
-        title="Healthcare App"
-        description="Fullstack web application for managing healthcare data."
+        title="More to come..."
+        description="Stay tuned for more projects!"
         techstack={
           <div className="flex space-x-2">
             <RiReactjsLine />
-            <SiMui />
-            <BiLogoPostgresql />
-            <SiSpring />
           </div>
         }
-        link="https://github.com/tsiro66/Healthcare-app-FE"
-      />
-      <Card
-        title="Healthcare App"
-        description="Fullstack web application for managing healthcare data."
-        techstack={
-          <div className="flex space-x-2">
-            <RiReactjsLine />
-            <SiMui />
-            <BiLogoPostgresql />
-            <SiSpring />
-          </div>
-        }
-        link="https://github.com/tsiro66/Healthcare-app-FE"
+        link=""
       />
     </div>
   );
