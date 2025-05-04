@@ -1,8 +1,9 @@
 type DemoCardProps = {
   title: string;
   description: string;
-  techstack: React.ReactNode;
+  techstack?: React.ReactNode;
   link?: string;
+  progress?: string;
 };
 
 const DemoCard: React.FC<DemoCardProps> = ({
@@ -10,6 +11,7 @@ const DemoCard: React.FC<DemoCardProps> = ({
   description,
   techstack,
   link,
+  progress,
 }) => {
   return (
     <>
@@ -26,6 +28,17 @@ const DemoCard: React.FC<DemoCardProps> = ({
           {title} {techstack}
         </h2>
         <p className="text-gray-400 dark:text-gray-300 mb-4">{description}</p>
+        {progress && (
+          <>
+            <p className="text-gray-400 dark:text-gray-300">{progress}</p>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div
+                className="bg-blue-600 h-2.5 rounded-full"
+                style={{ width: progress }}
+              ></div>
+            </div>
+          </>
+        )}
       </div>
     </>
   );
