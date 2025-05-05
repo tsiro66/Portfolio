@@ -34,7 +34,7 @@ const ProjectCards = () => {
           </div>
         }
         link="https://github.com/tsiro66/Resume-ai"
-        progress="5%"
+        progress="45%"
       />
       <Card
         title="Email Reply Assistant"
