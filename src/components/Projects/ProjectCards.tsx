@@ -20,7 +20,7 @@ const ProjectCards = () => {
           </div>
         }
         link='https://github.com/stars/tsiro66/lists/healthcare-app'
-        progress='90%'
+        progress='100%'
       />
       <Card
         title='CV AI Improvement Tool'
