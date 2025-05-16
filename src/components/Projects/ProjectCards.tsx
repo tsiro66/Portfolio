@@ -4,6 +4,10 @@ import { SiSpring, SiPrisma, SiMongodb } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMui } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
+import { FaBootstrap } from "react-icons/fa";
+import { DiMsqlServer } from "react-icons/di";
+import { TbBrandCSharp } from "react-icons/tb";
+import { IoLogoGithub } from "react-icons/io";
 
 const ProjectCards = () => {
   return (
@@ -23,6 +27,19 @@ const ProjectCards = () => {
         progress='100%'
       />
       <Card
+        title='Library Management App'
+        description='Fullstack library management system'
+        progress='10%'
+        techstack={
+          <div className='flex space-x-2'>
+            <div className='text-sm'>.NET</div>
+            <TbBrandCSharp />
+            <FaBootstrap />
+            <DiMsqlServer />
+          </div>
+        }
+      />
+      <Card
         title='CV AI Improvement Tool'
         description='Fullstack web application for improving your CV with AI.'
         techstack={
@@ -36,21 +53,12 @@ const ProjectCards = () => {
         link='https://github.com/tsiro66/Resume-ai'
         progress='65%'
       />
-      <Card
-        title='Email Reply Assistant'
-        description='Generate professional replies to emails with AI.'
-        progress='0%'
-      />
 
       <Card
         title='More to come...'
         description='Stay tuned for more projects!'
-        techstack={
-          <div className='flex space-x-2'>
-            <RiReactjsLine />
-          </div>
-        }
-        link=''
+        link='https://github.com/tsiro66/'
+        techstack={<IoLogoGithub />}
       />
     </div>
   );

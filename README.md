@@ -16,7 +16,7 @@ This portfolio site is built using the following technologies:
 - **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapid UI development.
 - **[EmailJS](https://www.emailjs.com/):** A service that allows you to send emails directly from your client-side code without a backend.
 - **[React Icons](https://react-icons.github.io/react-icons/):** A library that includes popular icon sets for React.
-- **[React Router](https://reactrouter.com/):** A standard library for routing in React applications.
+- **[Framer Motion](https://motion.dev/):** An animation library for React that makes it easy to create smooth and interactive animations.
 
 ## Features
 
