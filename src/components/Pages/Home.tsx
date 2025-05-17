@@ -22,9 +22,18 @@ function Home() {
               <span className='text-black dark:text-white font-semibold transition-all duration-300 ease-in-out'>
                 Tailwind CSS
               </span>
-              . I enjoy building interactive, user-friendly applications and
-              exploring new technologies. Feel free to browse my projects or get
-              in touch if you'd like to collaborate!
+              . Click{" "}
+              <a
+                href='https://github.com/tsiro66/Portfolio'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-blue-700 dark:text-blue-400 hover:text-blue-900 dark:hover:text-blue-200 transition duration-300 ease-in-out'
+              >
+                here
+              </a>{" "}
+              to see the code. I enjoy building interactive, user-friendly
+              applications and exploring new technologies. Feel free to browse
+              my projects or get in touch if you'd like to collaborate!
             </p>
 
             <div className='flex justify-center mb-6 md:mb-8 lg:mb-10'>

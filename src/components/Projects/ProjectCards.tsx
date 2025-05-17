@@ -28,8 +28,9 @@ const ProjectCards = () => {
       />
       <Card
         title='Library Management App'
-        description='Fullstack library management system'
-        progress='10%'
+        description='Fullstack library management system.'
+        progress='45%'
+        link='https://github.com/tsiro66/Library-Management'
         techstack={
           <div className='flex space-x-2'>
             <div className='text-sm'>.NET</div>
