@@ -33,7 +33,7 @@ function Home() {
               </a>{" "}
               to see the code. I enjoy building interactive, user-friendly
               applications and exploring new technologies. Feel free to browse
-              my projects or get in touch if you'd like to collaborate!
+              my projects or get in touch if you'd like to hire me!
             </p>
 
             <div className='flex justify-center mb-6 md:mb-8 lg:mb-10'>
