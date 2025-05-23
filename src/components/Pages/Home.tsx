@@ -15,11 +15,11 @@ function Home() {
             <p className='text-center text-gray-500 dark:text-gray-400 text-sm sm:text-base md:text-lg mb-4 md:mb-6 lg:mb-8 mx-auto w-full max-w-xs sm:max-w-lg md:max-w-2xl px-2'>
               a full-stack web developer from Patras, Greece. This website is
               built with{" "}
-              <span className='text-black dark:text-white font-semibold transition-all duration-300 ease-in-out'>
+              <span className='text-black dark:text-white transition-all duration-300 ease-in-out'>
                 React
               </span>{" "}
               and{" "}
-              <span className='text-black dark:text-white font-semibold transition-all duration-300 ease-in-out'>
+              <span className='text-black dark:text-white transition-all duration-300 ease-in-out'>
                 Tailwind CSS
               </span>
               . Click{" "}
