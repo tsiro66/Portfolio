@@ -272,7 +272,7 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
-              <h3 className="font-semibold mb-4">Connect With Me</h3>
+              <h3 className="font-semibold mb-4 text-xl">Connect With Me</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
                 Follow me on social media for updates and web development tips
               </p>
