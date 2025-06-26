@@ -1,14 +1,16 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import "./App.css";
 import Home from "./components/Pages/Home.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NotFoundPage from "./components/NotFoundPage.tsx";
 import About from "./components/Pages/About.tsx";
 import Layout from "./components/Layout.tsx";
 import Contact from "./components/Pages/Contact.tsx";
-import Projects from "./components/Pages/Projects.tsx";
-
+import Pricing from "./components/Pages/Pricing.tsx";
+import MyWork from "./components/Pages/MyWork.tsx";
+import Services from "./components/Pages/Services.tsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,8 +29,16 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "projects",
-        element: <Projects />,
+        path: "pricing",
+        element: <Pricing />,
+      },
+      {
+        path: "mywork",
+        element: <MyWork />,
+      },
+      {
+        path: "services",
+        element: <Services />,
       },
     ],
   },
