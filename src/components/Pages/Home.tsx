@@ -123,7 +123,7 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 relative">
             {/* Connection line for desktop */}
-            <div className="hidden md:block absolute top-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-300 to-yellow-300 dark:from-purple-700 dark:to-yellow-600"></div>
+            <div className="hidden md:block absolute top-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-300 to-fuchsia-400 dark:from-purple-700 dark:to-yellow-600"></div>
 
             {/* Step 1 */}
             <div className="relative text-center">
