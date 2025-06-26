@@ -66,13 +66,7 @@ const Navbar = () => {
             >
               Services
             </Link>
-            <Link
-              to="/mywork"
-              className="font-semibold text-sm md:text-base text-gray-700 px-2 md:px-3 py-1 md:py-2 rounded-md
-                dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 hover:scale-105 transition duration-300 ease-in-out"
-            >
-              My work
-            </Link>
+
             <Link
               to="/contact"
               className="font-semibold text-sm md:text-base text-gray-700 px-2 md:px-3 py-1 md:py-2 rounded-md
@@ -164,18 +158,10 @@ const Navbar = () => {
                 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-purple-600 dark:hover:text-purple-400 
                 transition-colors duration-300"
             >
+              <FaLaptopCode className="inline mr-3" size={16} />
               Services
             </Link>
-            <Link
-              to="/mywork"
-              onClick={closeMenu}
-              className="block font-semibold text-gray-700 dark:text-gray-300 px-4 py-3 rounded-md
-                hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-purple-600 dark:hover:text-purple-400 
-                transition-colors duration-300"
-            >
-              <FaLaptopCode className="inline mr-3" size={16} />
-              My work
-            </Link>
+
             <Link
               to="/pricing"
               onClick={closeMenu}
