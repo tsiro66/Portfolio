@@ -162,25 +162,25 @@ const Footer = () => {
           or positioned it as a prominent, yet subtle, element.
           Here, we'll place it as a visually distinct but harmonious section.
         */}
-        <div className="text-center py-10 mb-8 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-inner transition-all duration-300">
-          <h3 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-3 tracking-tight">
-            Contact me to build{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-fuchsia-500">
-              something amazing
-            </span>
-          </h3>
-          <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-            Let's turn your ideas into a stunning, high-performing website.
-            Reach out today to discuss your vision.
-          </p>
-          <Link
-            to="/contact"
-            className="inline-block bg-gradient-to-r from-fuchsia-600 to-purple-500 hover:from-purple-700 hover:to-fuchsia-600 text-white px-8 py-3 rounded-full
-              font-bold text-lg hover:shadow:xl transition duration-300 hover:scale-105 shadow-lg"
-          >
-            Get Your Project Started
-          </Link>
-        </div>
+        {/* <div className="text-center py-10 mb-8 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-inner transition-all duration-300">
+            <h3 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-3 tracking-tight">
+              Contact me to build{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-fuchsia-500">
+                something amazing
+              </span>
+            </h3>
+            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
+              Let's turn your ideas into a stunning, high-performing website.
+              Reach out today to discuss your vision.
+            </p>
+            <Link
+              to="/contact"
+              className="inline-block bg-gradient-to-r from-fuchsia-600 to-purple-500 hover:from-purple-700 hover:to-fuchsia-600 text-white px-8 py-3 rounded-full
+                font-bold text-lg hover:shadow:xl transition duration-300 hover:scale-105 shadow-lg"
+            >
+              Get Your Project Started
+            </Link>
+          </div> */}
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 dark:border-gray-800 pt-6">
