@@ -50,7 +50,7 @@ const Contact = () => {
       >
         {/* Hero Section */}
         <div className="w-full max-w-5xl mx-auto text-center mb-8">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Let's Work Together
           </h1>
           <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base max-w-2xl mx-auto">

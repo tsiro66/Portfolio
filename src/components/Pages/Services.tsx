@@ -18,7 +18,7 @@ const Services = () => {
           bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white transition-all duration-300 ease-in-out"
       >
         <div className="w-full max-w-5xl mx-auto">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4">
             Services I Offer
           </h1>
           <p className="text-center text-gray-600 dark:text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-8">
