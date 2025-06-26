@@ -314,9 +314,9 @@ const Services = () => {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               to="/pricing"
-              className="bg-gradient-to-r from-purple-600 to-fuchsia-500 hover:from-purple-700 hover:to-fuchsia-600 
+              className="bg-gradient-to-r from-purple-600 to-fuchsia-500 hover:from-fuchsia-500 hover:to-purple-600 
                 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl 
-                transition-all duration-300 hover:scale-105 text-center"
+                transition duration-300 hover:scale-105 text-center"
             >
               View Pricing
             </Link>

@@ -7,7 +7,6 @@ import {
   FaMapMarkerAlt,
   FaLinkedin,
   FaGithub,
-  FaTwitter,
 } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import PageTransition from "../PageTransition";
@@ -215,9 +214,9 @@ const Contact = () => {
               <button
                 type="submit"
                 disabled={isLoading}
-                className="w-full bg-gradient-to-r from-purple-600 to-fuchsia-500 hover:from-purple-700 hover:to-fuchsia-600 
-                  text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl 
-                  transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed
+                className="w-full bg-gradient-to-r from-purple-600 to-fuchsia-500 hover:from-fuchsia-500 hover:to-purple-600 
+                  text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl cursor-pointer
+                  transition duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed
                   disabled:hover:scale-100 flex items-center justify-center"
               >
                 {isLoading ? (
@@ -279,7 +278,7 @@ const Contact = () => {
               </p>
               <div className="flex space-x-3">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/tsiro66"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center
@@ -290,7 +289,7 @@ const Contact = () => {
                   <FaGithub size={18} />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/thodoris-tsironis-173b1b24a/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center
@@ -299,17 +298,6 @@ const Contact = () => {
                   aria-label="LinkedIn"
                 >
                   <FaLinkedin size={18} />
-                </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center
-                    text-gray-600 dark:text-gray-400 hover:bg-gradient-to-br hover:from-purple-600 hover:to-fuchsia-500
-                    hover:text-white transition-all duration-300 hover:scale-110"
-                  aria-label="Twitter"
-                >
-                  <FaTwitter size={18} />
                 </a>
               </div>
             </div>
