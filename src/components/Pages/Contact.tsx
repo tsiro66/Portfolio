@@ -205,7 +205,7 @@ const Contact = () => {
                   rows={3}
                   className="w-full px-4 py-2.5 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 
                     rounded-lg text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent 
-                    dark:text-white transition-all duration-300 resize-none"
+                    dark:text-white transition-all duration-300 resize-none focus:outline-none"
                   placeholder="Tell me about your project..."
                   required
                 ></textarea>
