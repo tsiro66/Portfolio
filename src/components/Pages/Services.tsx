@@ -14,14 +14,14 @@ const Services = () => {
   return (
     <PageTransition>
       <div
-        className="flex flex-col gap-8 items-center min-h-screen pt-16 md:pt-20 px-4 md:px-6 lg:px-8
+        className="flex flex-col gap-8 items-center min-h-screen pt-24 md:pt-28 px-4 md:px-6 lg:px-8
           bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white transition-all duration-300 ease-in-out"
       >
         <div className="w-full max-w-5xl mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4">
             Services I Offer
           </h1>
-          <p className="text-center text-gray-600 dark:text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-8">
+          <p className="text-center text-gray-600 dark:text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-4">
             From simple landing pages to complex web applications, I provide
             comprehensive web development services tailored to your specific
             needs.

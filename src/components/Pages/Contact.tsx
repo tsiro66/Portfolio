@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <PageTransition>
       <div
-        className="flex flex-col min-h-screen pt-16 md:pt-20 px-4 md:px-6 lg:px-8 
+        className="flex flex-col min-h-screen pt-24 md:pt-28 px-4 md:px-6 lg:px-8 
         bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white transition-all duration-300 ease-in-out"
       >
         {/* Hero Section */}

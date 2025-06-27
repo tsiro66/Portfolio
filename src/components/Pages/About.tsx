@@ -149,7 +149,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex">
+        <div className="flex p-6 md:p-0">
           <Link
             to="/pricing"
             className="bg-gradient-to-r from-fuchsia-600 to-purple-500 hover:from-purple-700 hover:to-fuchsia-600 text-white px-6 py-2.5 rounded-full 
