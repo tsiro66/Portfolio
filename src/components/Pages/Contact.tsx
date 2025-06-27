@@ -59,54 +59,54 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div className="w-full max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mb-8">
           {/* Contact Info Cards */}
-          <div
-            className="group bg-white dark:bg-gray-800 rounded-xl p-6 text-center
+          <a
+            href="mailto:tsiro.thodoris@gmail.com"
+            className="group bg-white dark:bg-gray-800 rounded-xl p-4 md:p-6 text-center
             border-2 border-transparent hover:border-purple-500 dark:hover:border-purple-400
-            shadow-lg hover:shadow-xl transition-all duration-300"
+            shadow-lg hover:shadow-xl transition-all duration-300 block"
           >
             <div
               className="w-12 h-12 bg-gray-200 dark:bg-gray-700 group-hover:bg-gradient-to-br
               group-hover:from-purple-600 group-hover:to-purple-700 rounded-lg flex items-center 
-              justify-center mx-auto mb-4 transition-all duration-300"
+              justify-center mx-auto mb-3 md:mb-4 transition-all duration-300"
             >
               <FaEnvelope className="text-gray-500 dark:text-gray-400 group-hover:text-white text-xl transition-colors duration-300" />
             </div>
-            <h3 className="font-semibold mb-2">Email Me</h3>
-            <a
-              href="mailto:tsiro.thodoris@gmail.com"
-              className="text-sm text-gray-600 dark:text-gray-400 hover:text-purple-600 
-              dark:hover:text-purple-400 transition-colors duration-300"
+            <h3 className="font-semibold mb-2 text-base">Email Me</h3>
+            <span
+              className="text-xs md:text-sm text-gray-600 dark:text-gray-400 group-hover:text-purple-600 
+              dark:group-hover:text-purple-400 transition-colors duration-300 break-all"
             >
               tsiro.thodoris@gmail.com
-            </a>
-          </div>
+            </span>
+          </a>
 
-          <div
-            className="group bg-white dark:bg-gray-800 rounded-xl p-6 text-center
+          <a
+            href="tel:+306987828639"
+            className="group bg-white dark:bg-gray-800 rounded-xl p-4 md:p-6 text-center
             border-2 border-transparent hover:border-fuchsia-500 dark:hover:border-fuchsia-400
-            shadow-lg hover:shadow-xl transition-all duration-300"
+            shadow-lg hover:shadow-xl transition-all duration-300 block"
           >
             <div
               className="w-12 h-12 bg-gray-200 dark:bg-gray-700 group-hover:bg-gradient-to-br
               group-hover:from-fuchsia-500 group-hover:to-fuchsia-600 rounded-lg flex items-center 
-              justify-center mx-auto mb-4 transition-all duration-300"
+              justify-center mx-auto mb-3 md:mb-4 transition-all duration-300"
             >
               <FaPhone className="text-gray-500 dark:text-gray-400 group-hover:text-white text-xl transition-colors duration-300" />
             </div>
-            <h3 className="font-semibold mb-2">Call Me</h3>
-            <a
-              href="tel:+306912345678"
-              className="text-sm text-gray-600 dark:text-gray-400 hover:text-purple-600 
-              dark:hover:text-purple-400 transition-colors duration-300"
+            <h3 className="font-semibold mb-2 text-base">Call Me</h3>
+            <span
+              className="text-xs md:text-sm text-gray-600 dark:text-gray-400 group-hover:text-purple-600 
+              dark:group-hover:text-purple-400 transition-colors duration-300"
             >
               +30 698 782 8639
-            </a>
-          </div>
+            </span>
+          </a>
 
           <div
-            className="group bg-white dark:bg-gray-800 rounded-xl p-6 text-center
+            className="hidden md:block group bg-white dark:bg-gray-800 rounded-xl p-6 text-center
             border-2 border-transparent hover:border-yellow-500 dark:hover:border-yellow-400
             shadow-lg hover:shadow-xl transition-all duration-300"
           >
