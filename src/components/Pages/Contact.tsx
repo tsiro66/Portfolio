@@ -147,7 +147,7 @@ const Contact = () => {
                     id="name"
                     name="name"
                     className="w-full px-4 py-2.5 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 
-                      rounded-lg text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+                      rounded-lg text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent focus:outline-none
                       dark:text-white transition-all duration-300"
                     placeholder="John Doe"
                     required
@@ -165,7 +165,7 @@ const Contact = () => {
                     id="email"
                     name="email"
                     className="w-full px-4 py-2.5 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 
-                      rounded-lg text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+                      rounded-lg text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent focus:outline-none
                       dark:text-white transition-all duration-300"
                     placeholder="john@example.com"
                     required
@@ -185,7 +185,7 @@ const Contact = () => {
                   id="subject"
                   name="subject"
                   className="w-full px-4 py-2.5 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 
-                    rounded-lg text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+                    rounded-lg text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent focus:outline-none
                     dark:text-white transition-all duration-300"
                   placeholder="How can I help you?"
                   required
