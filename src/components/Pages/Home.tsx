@@ -137,7 +137,7 @@ const Home = () => {
                 <span className="text-white font-bold">1</span>
               </div>
               <h3 className="font-semibold mb-1 text-sm">We Talk</h3>
-              <p className="text-xs text-gray-600 dark:text-gray-400">
+              <p className="text-xs text-gray-600 dark:text-gray-400 px-10">
                 Discuss your goals and vision for the project
               </p>
             </div>
@@ -151,7 +151,7 @@ const Home = () => {
                 <span className="text-white font-bold">2</span>
               </div>
               <h3 className="font-semibold mb-1 text-sm">I Design</h3>
-              <p className="text-xs text-gray-600 dark:text-gray-400">
+              <p className="text-xs text-gray-600 dark:text-gray-400 px-10">
                 Create a custom design that matches your brand
               </p>
             </div>
@@ -165,7 +165,7 @@ const Home = () => {
                 <span className="text-white font-bold">3</span>
               </div>
               <h3 className="font-semibold mb-1 text-sm">You Review</h3>
-              <p className="text-xs text-gray-600 dark:text-gray-400">
+              <p className="text-xs text-gray-600 dark:text-gray-400 px-10">
                 Provide feedback and request any changes
               </p>
             </div>
@@ -179,7 +179,7 @@ const Home = () => {
                 <span className="text-white font-bold">4</span>
               </div>
               <h3 className="font-semibold mb-1 text-sm">We Launch</h3>
-              <p className="text-xs text-gray-600 dark:text-gray-400">
+              <p className="text-xs text-gray-600 dark:text-gray-400 px-10">
                 Your website goes live and starts working for you
               </p>
             </div>

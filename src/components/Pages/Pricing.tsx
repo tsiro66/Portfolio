@@ -8,8 +8,8 @@ const Pricing = () => {
         className="flex flex-col gap-4 items-center min-h-screen pt-24 md:pt-28 px-4 md:px-6 lg:px-8
           bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white transition-all duration-300 ease-in-out"
       >
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mt-2 md:mt-4">
-          Simple, Transparent Pricing
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mt-2 md:mt-4">
+          Simple and Clear Pricing
         </h1>
 
         <p className="text-center text-gray-600 dark:text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-4">
