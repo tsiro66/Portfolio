@@ -52,15 +52,15 @@ const Home = () => {
           <div
             className="group bg-white dark:bg-gray-800 rounded-xl p-6 
             border-2 border-transparent hover:border-purple-500 dark:hover:border-purple-400
-            shadow-lg hover:shadow-xl transition-all duration-300"
+            shadow-lg hover:shadow-xl transition duration-300 ease-in-out"
           >
             <div className="flex gap-4 items-center">
               <div
                 className="w-12 h-12 bg-gray-200 dark:bg-gray-700 group-hover:bg-gradient-to-br
               group-hover:from-purple-600 group-hover:to-purple-700 rounded-lg flex items-center 
-              justify-center mb-4 transition-all duration-300"
+              justify-center mb-4 transition duration-300 ease-in-out"
               >
-                <FaCode className="text-gray-500 dark:text-gray-400 group-hover:text-white text-xl transition-colors duration-300" />
+                <FaCode className="text-gray-500 dark:text-gray-400 group-hover:text-white text-xl transition  duration-300 ease-in-out" />
               </div>
               <h3 className="text-lg font-bold mb-2">Custom Development</h3>
             </div>
@@ -74,15 +74,15 @@ const Home = () => {
           <div
             className="group bg-white dark:bg-gray-800 rounded-xl p-6 
             border-2 border-transparent hover:border-yellow-500 dark:hover:border-yellow-400
-            shadow-lg hover:shadow-xl transition-all duration-300"
+            shadow-lg hover:shadow-xl transition duration-300 ease-in-out"
           >
             <div className="flex gap-4 items-center">
               <div
                 className="w-12 h-12 bg-gray-200 dark:bg-gray-700 group-hover:bg-gradient-to-br
               group-hover:from-yellow-400 group-hover:to-yellow-500 rounded-lg flex items-center 
-              justify-center mb-4 transition-all duration-300"
+              justify-center mb-4 transition duration-300 ease-in-out"
               >
-                <FaRocket className="text-gray-500 dark:text-gray-400 group-hover:text-white text-xl transition-colors duration-300" />
+                <FaRocket className="text-gray-500 dark:text-gray-400 group-hover:text-white text-xl transition duration-300 ease-in-out" />
               </div>
               <h3 className="text-lg font-bold mb-2">Fast & Optimized</h3>
             </div>
@@ -96,15 +96,15 @@ const Home = () => {
           <div
             className="group bg-white dark:bg-gray-800 rounded-xl p-6 
             border-2 border-transparent hover:border-fuchsia-500 dark:hover:border-fuchsia-400
-            shadow-lg hover:shadow-xl transition-all duration-300"
+            shadow-lg hover:shadow-xl transition duration-300 ease-in-out"
           >
             <div className="flex gap-4 items-center">
               <div
                 className="w-12 h-12 bg-gray-200 dark:bg-gray-700 group-hover:bg-gradient-to-br
               group-hover:from-fuchsia-600 group-hover:to-fuchsia-500 rounded-lg flex items-center 
-              justify-center mb-4 transition-all duration-300"
+              justify-center mb-4 transition duration-300 ease-in-out"
               >
-                <FaPalette className="text-gray-500 dark:text-gray-400 group-hover:text-white text-xl transition-colors duration-300" />
+                <FaPalette className="text-gray-500 dark:text-gray-400 group-hover:text-white text-xl transition duration-300 ease-in-out" />
               </div>
               <h3 className="text-lg font-bold mb-2">Beautiful Design</h3>
             </div>
@@ -123,11 +123,17 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 relative">
             {/* Connection line for desktop */}
-            <div className="hidden md:block absolute top-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-300 to-fuchsia-400 dark:from-purple-700 dark:to-yellow-600"></div>
+            <div
+              className="hidden md:block absolute top-6 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-300 to-fuchsia-400
+             dark:from-purple-700 dark:to-fuchsia-600"
+            ></div>
 
             {/* Step 1 */}
             <div className="relative text-center">
-              <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-3 relative z-10">
+              <div
+                className="w-12 h-12 bg-gradient-to-br from-purple-600 to-purple-700 rounded-full flex items-center justify-center
+               mx-auto mb-3 relative z-10"
+              >
                 <span className="text-white font-bold">1</span>
               </div>
               <h3 className="font-semibold mb-1 text-sm">We Talk</h3>
@@ -138,7 +144,10 @@ const Home = () => {
 
             {/* Step 2 */}
             <div className="relative text-center">
-              <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-fuchsia-500 rounded-full flex items-center justify-center mx-auto mb-3 relative z-10">
+              <div
+                className="w-12 h-12 bg-gradient-to-br from-purple-600 to-fuchsia-500 rounded-full flex items-center justify-center
+              mx-auto mb-3 relative z-10"
+              >
                 <span className="text-white font-bold">2</span>
               </div>
               <h3 className="font-semibold mb-1 text-sm">I Design</h3>
@@ -149,7 +158,10 @@ const Home = () => {
 
             {/* Step 3 */}
             <div className="relative text-center">
-              <div className="w-12 h-12 bg-gradient-to-br from-fuchsia-500 to-fuchsia-600 rounded-full flex items-center justify-center mx-auto mb-3 relative z-10">
+              <div
+                className="w-12 h-12 bg-gradient-to-br from-fuchsia-500 to-fuchsia-600 rounded-full flex items-center justify-center 
+              mx-auto mb-3 relative z-10"
+              >
                 <span className="text-white font-bold">3</span>
               </div>
               <h3 className="font-semibold mb-1 text-sm">You Review</h3>
@@ -160,7 +172,10 @@ const Home = () => {
 
             {/* Step 4 */}
             <div className="relative text-center">
-              <div className="w-12 h-12 bg-gradient-to-br from-fuchsia-400 to-fuchsia-600 rounded-full flex items-center justify-center mx-auto mb-3 relative z-10">
+              <div
+                className="w-12 h-12 bg-gradient-to-br from-fuchsia-400 to-fuchsia-600 rounded-full flex items-center justify-center 
+              mx-auto mb-3 relative z-10"
+              >
                 <span className="text-white font-bold">4</span>
               </div>
               <h3 className="font-semibold mb-1 text-sm">We Launch</h3>
@@ -231,7 +246,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <div className="bg-gradient-to-br from-purple-600 to-fuchsia-500 rounded-xl p-6 text-white">
+          <div className="bg-gradient-to-br from-purple-600 to-fuchsia-600 rounded-xl p-6 text-white">
             <h3 className="text-xl font-bold mb-4">Ready to Get Started?</h3>
             <p className="text-sm mb-6 opacity-90">
               Let's create something amazing together. Whether you need a simple

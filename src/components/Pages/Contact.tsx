@@ -237,7 +237,7 @@ const Contact = () => {
           {/* Right Side Content */}
           <div className="space-y-6">
             {/* FAQ Style Info */}
-            <div className="bg-gradient-to-br from-purple-600 to-fuchsia-500 rounded-xl p-6 text-white">
+            <div className="bg-gradient-to-br from-purple-600 to-fuchsia-600 rounded-xl p-6 text-white">
               <h3 className="text-xl font-bold mb-4">
                 Let's Create Something Amazing
               </h3>
