@@ -32,7 +32,7 @@ const Pricing = () => {
                 Perfect for personal sites & portfolios
               </p>
               <div className="flex items-baseline justify-center">
-                <span className="text-2xl font-bold">€599</span>
+                <span className="text-2xl font-bold">€999</span>
                 <span className="text-gray-500 ml-1 text-sm">one-time</span>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Pricing = () => {
                 Ideal for small businesses
               </p>
               <div className="flex items-baseline justify-center">
-                <span className="text-2xl font-bold">€999</span>
+                <span className="text-2xl font-bold">€1499</span>
                 <span className="text-gray-500 ml-1 text-sm">one-time</span>
               </div>
             </div>
@@ -187,7 +187,7 @@ const Pricing = () => {
                 For online stores & shops
               </p>
               <div className="flex items-baseline justify-center">
-                <span className="text-2xl font-bold">€1499</span>
+                <span className="text-2xl font-bold">€1999</span>
                 <span className="text-gray-500 ml-1 text-sm">one-time</span>
               </div>
             </div>

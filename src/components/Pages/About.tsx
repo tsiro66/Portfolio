@@ -151,11 +151,11 @@ const About = () => {
 
         <div className="flex">
           <Link
-            to="/mywork"
+            to="/pricing"
             className="bg-gradient-to-r from-fuchsia-600 to-purple-500 hover:from-purple-700 hover:to-fuchsia-600 text-white px-6 py-2.5 rounded-full 
               font-semibold text-sm md:text-base shadow-lg hover:shadow-xl transition duration-300 hover:scale-105"
           >
-            See websites I've built
+            See my pricing
           </Link>
         </div>
       </div>
