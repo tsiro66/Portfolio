@@ -9,8 +9,10 @@ import About from "./components/Pages/About.tsx";
 import Layout from "./components/Layout.tsx";
 import Contact from "./components/Pages/Contact.tsx";
 import Pricing from "./components/Pages/Pricing.tsx";
-import MyWork from "./components/Pages/MyWork.tsx";
 import Services from "./components/Pages/Services.tsx";
+import Demos from "./components/Pages/Demos.tsx";
+import DoctorDemo from "./components/Pages/Demos/DoctorDemo.tsx";
+import TechDemo from "./components/Pages/Demos/TechDemo.tsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,8 +35,22 @@ const router = createBrowserRouter([
         element: <Pricing />,
       },
       {
-        path: "mywork",
-        element: <MyWork />,
+        path: "demos/*",
+        element: <Demos />,
+        children: [
+          {
+            index: true,
+            element: <DoctorDemo />,
+          },
+          {
+            path: "doctor",
+            element: <DoctorDemo />,
+          },
+          {
+            path: "tech",
+            element: <TechDemo />,
+          },
+        ],
       },
       {
         path: "services",

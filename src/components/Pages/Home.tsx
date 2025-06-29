@@ -26,7 +26,7 @@ const Home = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/mywork"
+              to="/demos"
               className="bg-gradient-to-r from-fuchsia-600 to-purple-500 hover:from-purple-700 hover:to-fuchsia-600
                 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl 
                 transition duration-300 hover:scale-105 flex items-center justify-center"
