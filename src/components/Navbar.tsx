@@ -200,7 +200,10 @@ const Navbar = () => {
             {/* Emergency button for medical demo only */}
             {showEmergencyButton && (
               <a
-                href="tel:555-911-2000"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
                 className="hidden md:flex items-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-full text-sm font-medium mr-3 transition-all hover:scale-105"
               >
                 <FaPhone size={14} />
