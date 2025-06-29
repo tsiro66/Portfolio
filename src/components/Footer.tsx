@@ -84,15 +84,6 @@ const Footer = () => {
 
               <li>
                 <Link
-                  to="/pricing"
-                  className="text-sm text-gray-600 dark:text-gray-400 hover:text-purple-600
-                    dark:hover:text-purple-400 transition-colors duration-300"
-                >
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/contact"
                   className="text-sm text-gray-600 dark:text-gray-400 hover:text-purple-600
                     dark:hover:text-purple-400 transition-colors duration-300"

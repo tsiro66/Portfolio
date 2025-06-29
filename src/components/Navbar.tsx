@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { MdDarkMode, MdOutlineDarkMode } from "react-icons/md";
 import { useEffect, useState } from "react";
-import { IoMdMail, IoMdPricetag } from "react-icons/io";
+import { IoMdMail } from "react-icons/io";
 import { FaInfo, FaPhone } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 import { HiMenu, HiX } from "react-icons/hi";
@@ -188,13 +188,6 @@ const Navbar = () => {
             >
               Demos
             </Link>
-            <Link
-              to="/pricing"
-              className={`font-semibold text-sm md:text-base px-2 md:px-3 py-1 md:py-2 rounded-md
-                ${styles.text} ${styles.hoverText} hover:scale-105 transition duration-300 ease-in-out`}
-            >
-              Pricing
-            </Link>
           </div>
           <div className="flex items-center">
             {/* Emergency button for medical demo only */}
@@ -211,7 +204,6 @@ const Navbar = () => {
               </a>
             )}
 
-            {/* Pricing button */}
             <Link
               to="/contact"
               className={`hidden sm:flex ${styles.buttonBg} text-white px-3 md:px-4 py-1.5 md:py-2 rounded-full cursor-pointer 
@@ -305,15 +297,7 @@ const Navbar = () => {
               <FaLaptopCode className="inline mr-3" size={16} />
               Demos
             </Link>
-            <Link
-              to="/pricing"
-              onClick={closeMenu}
-              className={`block font-semibold ${styles.text} px-4 py-3 rounded-md
-                ${styles.mobileHover} ${styles.hoverText} transition-colors duration-300 sm:hidden`}
-            >
-              <IoMdPricetag className="inline mr-3" size={16} />
-              Pricing
-            </Link>
+
             <Link
               to="/contact"
               onClick={closeMenu}

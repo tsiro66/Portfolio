@@ -8,7 +8,6 @@ import NotFoundPage from "./components/NotFoundPage.tsx";
 import About from "./components/Pages/About.tsx";
 import Layout from "./components/Layout.tsx";
 import Contact from "./components/Pages/Contact.tsx";
-import Pricing from "./components/Pages/Pricing.tsx";
 import Services from "./components/Pages/Services.tsx";
 import Demos from "./components/Pages/Demos.tsx";
 import DoctorDemo from "./components/Pages/Demos/DoctorDemo.tsx";
@@ -29,10 +28,6 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
-      },
-      {
-        path: "pricing",
-        element: <Pricing />,
       },
       {
         path: "demos/*",
