@@ -313,19 +313,10 @@ const Services = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              to="/pricing"
+              to="/contact"
               className="bg-gradient-to-r from-purple-600 to-fuchsia-500 hover:from-fuchsia-500 hover:to-purple-600 
                 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl 
                 transition duration-300 hover:scale-105 text-center"
-            >
-              View Pricing
-            </Link>
-            <Link
-              to="/contact"
-              className="bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 
-                hover:border-purple-500 dark:hover:border-purple-400 text-gray-700 dark:text-gray-300 
-                px-6 py-3 rounded-full font-semibold shadow-md hover:shadow-lg 
-                transition-all duration-300 hover:scale-105 text-center"
             >
               Get in Touch
             </Link>
