@@ -255,11 +255,11 @@ const Home = () => {
             </p>
             <div className="space-y-3">
               <Link
-                to="/pricing"
+                to="/services"
                 className="block w-full bg-white text-purple-700 px-4 py-2.5 rounded-full 
                   font-semibold text-center hover:bg-gray-100 transition-all duration-300"
               >
-                View Pricing
+                View Services
               </Link>
               <Link
                 to="/contact"
